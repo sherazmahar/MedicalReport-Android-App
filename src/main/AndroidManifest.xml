@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.shiraz.medicalreport">
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <receiver android:name=".NewAppWidget">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/new_app_widget_info"
+                android:value="25.3.1"
+                tools:replace="android:value" />
+        </receiver>
+
+        <activity android:name=".MainOption" />
+        <activity android:name=".Doctor_Page" />
+        <activity android:name=".Patient_Page" />
+        <activity android:name=".Patient_Login" />
+        <activity android:name=".Doctor_Login" />
+        <activity android:name=".SignUp_Page" />
+        <activity android:name=".Add_Report" />
+        <activity android:name=".View_Report" />
+        <activity android:name=".View_Suggestion_P" />
+
+        <service android:name=".InfoServices" />
+
+        <activity
+            android:name=".InfoData"
+            android:label="@string/title_activity_info_data"
+            android:parentActivityName=".Patient_Page">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.shiraz.medicalreport.Patient_Page" />
+        </activity>
+        <activity android:name=".Upload_Img_Activity" />
+        <activity android:name=".View_Report_Doctor"></activity>
+    </application>
+
+
+
+</manifest>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context="com.example.usman.preport.Doctor_Page">
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Patient Name"
+        android:textAlignment="center"
+        android:id="@+id/sp_name"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Search Patient"
+        android:id="@+id/sp_search"
+        android:background="#cffccf"
+        />
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:hint="Enter Suggestions"
+        android:textAlignment="center"
+        android:id="@+id/sp_suggestion"/>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+    <Button
+        android:padding="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#fafa"
+        android:text="Add Suggestion"
+        android:id="@+id/sp_add_suggestion"/>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#afaa"
+        android:id="@+id/sp_signout"
+        android:text="Signout"/>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="#ff867f"
+    android:padding="10dp"
+    tools:context="com.example.shiraz.medicalreport.Patient_Page">
+
+
+
+
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="0.3">
+
+
+        <LinearLayout
+            android:layout_marginLeft="100dp"
+
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="80dp"
+                android:id="@+id/pp_addreport"
+                android:src="@drawable/add_report" />
+
+
+            <TextView xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Add Report"
+                android:textSize="30sp" />
+
+        </LinearLayout>
+    </TableRow>
+
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="0.3"
+        >
+
+        <LinearLayout
+            android:layout_marginLeft="100dp"
+
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+
+                android:layout_width="150dp"
+                android:id="@+id/pp_viewreports"
+
+                android:layout_height="80dp"
+                android:src="@drawable/view_report" />
+
+
+            <TextView xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="View Reports"
+
+                android:textSize="30sp" />
+
+        </LinearLayout>
+
+    </TableRow>
+
+
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="0.3"
+        >
+
+        <LinearLayout
+            android:layout_marginLeft="100dp"
+
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+
+                android:layout_width="150dp"
+                android:id="@+id/pp_viewsuggestion"
+
+                android:layout_height="80dp"
+                android:src="@drawable/view_report" />
+
+
+            <TextView xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="View Suggestion"
+
+                android:textSize="30sp" />
+
+        </LinearLayout>
+
+    </TableRow>
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="0.1"
+        >
+        <LinearLayout
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/pp_addinfo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Add Lock Screen Information"/>
+
+            <Button
+                android:layout_width="100dp"
+                android:id="@+id/pp_signout"
+                android:text="Signout"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+    </TableRow>
+
+
+</TableLayout>

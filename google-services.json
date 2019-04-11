@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1072672656253",
+    "firebase_url": "https://medicalreport-bab2d.firebaseio.com",
+    "project_id": "medicalreport-bab2d",
+    "storage_bucket": "medicalreport-bab2d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1072672656253:android:d445b43d9aa24731",
+        "android_client_info": {
+          "package_name": "com.example.shiraz.medicalreport"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1072672656253-uhvpb45qkepeu2g6scjvlam34rep18l6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.shiraz.medicalreport",
+            "certificate_hash": "8c258114667fbc8056de79b2cb40105f690ece0d"
+          }
+        },
+        {
+          "client_id": "1072672656253-ae5e9of3n7r1rucb5k24bc775ncduq29.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCqjk4RFwmmv01DGCZ9YtqniSLfVt3dFhc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1072672656253-ae5e9of3n7r1rucb5k24bc775ncduq29.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
